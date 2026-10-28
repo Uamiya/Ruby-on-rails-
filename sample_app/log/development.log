@@ -1,0 +1,51 @@
+Started GET "/" for 127.0.0.1 at 2026-10-28 18:41:15 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.10/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.10/lib/rails/templates/rails/welcome/index.html.erb (Duration: 14.7ms | Allocations: 681)
+Completed 200 OK in 359ms (Views: 59.9ms | ActiveRecord: 0.0ms | Allocations: 7824)
+
+
+Started GET "/home" for 127.0.0.1 at 2026-10-28 18:41:40 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/help" for 127.0.0.1 at 2026-10-28 18:42:09 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/help"):
+  
+Started GET "/static_pages/home" for 127.0.0.1 at 2026-10-28 18:43:03 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 1719.1ms | Allocations: 68364)
+Completed 500 Internal Server Error in 1742ms (ActiveRecord: 0.0ms | Allocations: 69457)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (C:/projects/sample_app/tmp/cache/assets/sprockets/v4.0.0/0R/0Rp-c-6gycj3o2WV32BbU1TZaT8wvIF9DqcqFfxxBt8.cache.22760.3156.89799, C:/projects/sample_app/tmp/cache/assets/sprockets/v4.0.0/0R/0Rp-c-6gycj3o2WV32BbU1TZaT8wvIF9DqcqFfxxBt8.cache)):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/static_pages/home" for ::1 at 2026-10-28 18:45:38 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 223.3ms | Allocations: 36711)
+Completed 200 OK in 230ms (Views: 225.1ms | ActiveRecord: 0.0ms | Allocations: 37043)
+
+
+Started GET "/" for 127.0.0.1 at 2026-10-28 18:46:23 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.10/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.10/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.5ms | Allocations: 297)
+Completed 200 OK in 12ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 973)
+
+
