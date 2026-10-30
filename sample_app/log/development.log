@@ -176,3 +176,21 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 43ms (Views: 34.7ms | ActiveRecord: 0.0ms | Allocations: 1215)
 
 
+Started GET "/static_pages/home" for ::1 at 2026-10-30 19:03:49 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.2ms | Allocations: 401)
+  Rendered layout layouts/application.html.erb (Duration: 554.4ms | Allocations: 40604)
+Completed 200 OK in 589ms (Views: 564.5ms | ActiveRecord: 0.0ms | Allocations: 45181)
+
+
+Started GET "/" for 127.0.0.1 at 2026-10-30 19:03:56 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 1637)
+Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 1988)
+
+
