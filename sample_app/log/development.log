@@ -194,3 +194,363 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 1988)
 
 
+Started GET "/" for 127.0.0.1 at 2026-11-01 18:06:01 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 364)
+  Rendered layout layouts/application.html.erb (Duration: 817.3ms | Allocations: 171916)
+Completed 500 Internal Server Error in 856ms (ActiveRecord: 0.0ms | Allocations: 176448)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (C:/projects/sample_app/tmp/cache/assets/sprockets/v4.0.0/8D/8DZHQN9GSymXmMDP_U9RA8xk9XuobfBk5riXNck4wg0.cache.22780.21352.916846, C:/projects/sample_app/tmp/cache/assets/sprockets/v4.0.0/8D/8DZHQN9GSymXmMDP_U9RA8xk9XuobfBk5riXNck4wg0.cache)):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:   
+    11:     <%= render 'layouts/shim' %>
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2026-11-01 18:06:23 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 2451)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2758)
+
+
+  
+ActionView::Template::Error (unknown keyword: quirks_mode):
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+    6:     <%= csrf_meta_tags %>
+    7:     <%= csp_meta_tag %>
+    8: 
+    9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/root" for 127.0.0.1 at 2026-11-01 18:06:41 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/root"):
+  
+Started GET "/root" for 127.0.0.1 at 2026-11-01 18:12:22 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/root"):
+  
+Started GET "/static_pages/home" for ::1 at 2026-11-01 18:12:33 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/home"):
+  
+Started GET "/" for ::1 at 2026-11-01 18:16:31 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2737)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 5140)
+
+
+  
+ActionView::Template::Error (unknown keyword: quirks_mode):
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+    6:     <%= csrf_meta_tags %>
+    7:     <%= csp_meta_tag %>
+    8: 
+    9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/help" for ::1 at 2026-11-01 18:16:42 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.0ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2408)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2746)
+
+
+  
+ActionView::Template::Error (unknown keyword: quirks_mode):
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+    6:     <%= csrf_meta_tags %>
+    7:     <%= csp_meta_tag %>
+    8: 
+    9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/root" for 127.0.0.1 at 2026-11-01 18:22:04 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/root"):
+  
+Started GET "/root" for 127.0.0.1 at 2026-11-01 18:43:35 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/root"):
+  
+Started GET "/" for 127.0.0.1 at 2026-11-01 18:43:51 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2858)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 5262)
+
+
+  
+ActionView::Template::Error (unknown keyword: quirks_mode):
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+    6:     <meta charset="utf-8">
+    7:     <%= csrf_meta_tags %>
+    8:     <%= csp_meta_tag %>
+    9: 
+   10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  
+app/views/layouts/application.html.erb:7
+Started GET "/" for 127.0.0.1 at 2026-11-01 19:14:24 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 450.8ms | Allocations: 88155)
+  Rendered layouts/_shim.html.erb (Duration: 0.6ms | Allocations: 113)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 366)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 481.6ms | Allocations: 95837)
+Completed 200 OK in 514ms (Views: 491.6ms | ActiveRecord: 0.0ms | Allocations: 100409)
+
+
+Started GET "/about" for 127.0.0.1 at 2026-11-01 19:20:54 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 2.3ms | Allocations: 156)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 130)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 6743)
+Completed 200 OK in 27ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 7168)
+
+
+Started GET "/contact" for 127.0.0.1 at 2026-11-01 19:20:57 +0300
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.5ms | Allocations: 117)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 116)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 58.6ms | Allocations: 6608)
+Completed 200 OK in 61ms (Views: 59.1ms | ActiveRecord: 0.0ms | Allocations: 6955)
+
+
+Started GET "/about" for 127.0.0.1 at 2026-11-01 19:21:04 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 6493)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 6782)
+
+
+Started GET "/contact" for 127.0.0.1 at 2026-11-01 19:21:06 +0300
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 116)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 6494)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 6786)
+
+
+Started GET "/about" for 127.0.0.1 at 2026-11-01 19:21:09 +0300
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 6514)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 6806)
+
+
+Started GET "/help" for 127.0.0.1 at 2026-11-01 19:21:41 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.8ms | Allocations: 118)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 6610)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 6953)
+
+
+Started GET "/" for 127.0.0.1 at 2026-11-01 19:21:45 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1154)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 7489)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 7778)
+
+
+Started GET "/" for 127.0.0.1 at 2026-11-01 19:56:21 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 107.4ms | Allocations: 29901)
+  Rendered layouts/_shim.html.erb (Duration: 0.8ms | Allocations: 110)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 294)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 132.5ms | Allocations: 37504)
+Completed 200 OK in 162ms (Views: 143.5ms | ActiveRecord: 0.0ms | Allocations: 42091)
+
+
+Started GET "/signup" for 127.0.0.1 at 2026-11-01 19:56:23 +0300
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 162)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 157)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 6976)
+Completed 200 OK in 29ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 7786)
+
+
+Started GET "/signup" for 127.0.0.1 at 2026-11-01 19:59:14 +0300
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 155)
+  Rendered layouts/_shim.html.erb (Duration: 0.7ms | Allocations: 102)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 323)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 7731)
+Completed 200 OK in 32ms (Views: 29.6ms | ActiveRecord: 0.0ms | Allocations: 8699)
+
+
+Started GET "/signup" for 127.0.0.1 at 2026-11-01 20:16:59 +0300
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 154)
+  Rendered layouts/_shim.html.erb (Duration: 0.5ms | Allocations: 102)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 327)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 7767)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.0ms | Allocations: 8722)
+
+
+Started GET "/" for 127.0.0.1 at 2026-11-01 20:17:07 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1555)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 119)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 8037)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.0ms | Allocations: 8721)
+
+
+Started GET "/signup" for 127.0.0.1 at 2026-11-01 20:17:09 +0300
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 122)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 6512)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.0ms | Allocations: 6825)
+
+
+Started GET "/help" for 127.0.0.1 at 2026-11-01 20:17:12 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 120)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 122)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 6636)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 6994)
+
+
+Started GET "/help" for 127.0.0.1 at 2026-11-01 20:17:16 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 122)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 6523)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 6812)
+
+
+Started GET "/help" for 127.0.0.1 at 2026-11-01 20:17:20 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 122)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 6528)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 6818)
+
+
+Started GET "/" for 127.0.0.1 at 2026-11-01 20:17:24 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1179)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 113)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 7523)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 7812)
+
+
+Started GET "/help" for 127.0.0.1 at 2026-11-01 20:17:32 +0300
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 122)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 6523)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms | Allocations: 6813)
+
+
+Started GET "/" for 127.0.0.1 at 2026-11-01 20:17:34 +0300
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1178)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 113)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 7532)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 7821)
+
+
