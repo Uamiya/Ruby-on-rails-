@@ -1,26 +1,25 @@
-# Ignore logs
-/log/
+# Logs
+log/
 *.log
 
-# Ignore temporary files
-/tmp/
-/tmp/*
-!/tmp/.keep
-!/tmp/pids/
-!/tmp/pids/.keep
+# Temp
+tmp/
+!tmp/.keep
+!tmp/pids/
+!tmp/pids/.keep
 
-# Ignore cache
+# Cache
 tmp/cache/
 tmp/storage/
 
-# Ignore database files (optional)
+# SQLite
 *.sqlite3
 *.sqlite3-journal
 
-# Ignore environment files
+# Env
 .env
 .env.*
 
-# Ignore OS files
+# OS
 .DS_Store
 Thumbs.db
